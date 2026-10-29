@@ -33,10 +33,12 @@ These are excellent for repeating an attack path from scratch once you understan
 ### Azure
 
 - [AzureGoat](https://github.com/ine-labs/AzureGoat) from INE. A deliberately vulnerable Azure infrastructure.
+- [BadZure](https://github.com/mvelazc0/BadZure). Deploys a misconfigured Entra ID tenant and Azure subscription full of attack paths, and hands you foothold credentials so you can go straight to the escalation.
 
 ### Google Cloud
 
 - [GCPGoat](https://github.com/ine-labs/GCPGoat) from INE. A deliberately vulnerable GCP infrastructure.
+- [Thunder CTF](https://thunder-ctf.cloud). A Google Cloud CTF that deploys each level into your own project, where you exploit the deployment to find a hidden secret.
 
 ### Multi-cloud and infrastructure as code
 
@@ -53,12 +55,15 @@ These are excellent for repeating an attack path from scratch once you understan
 ## For defenders
 
 - [Stratus Red Team](https://github.com/DataDog/stratus-red-team) from Datadog. Detonate individual cloud attack techniques in your own account and check whether your detections fire.
+- [The Cloud Hunting Games](https://www.cloudhuntinggames.com) from Wiz. An incident response CTF in the browser, where you query AWS logs with SQL to trace an attacker back to how they got in.
 - [Pwned Labs defensive labs](https://pwnedlabs.io/explore) (ours). Investigate real attack activity with CloudTrail, Athena, GuardDuty and Splunk in hosted environments.
 
 ## Tools you will reach for
 
 - [Pacu](https://github.com/RhinoSecurityLabs/pacu). The AWS exploitation framework from Rhino Security Labs.
 - [CloudFox](https://github.com/BishopFox/cloudfox). Situational awareness for cloud penetration tests, from Bishop Fox.
+- [ROADtools](https://github.com/dirkjanm/ROADtools). Entra ID recon and token tooling from Dirk-jan Mollema, including ROADrecon and roadtx.
+- [AzureHound](https://github.com/SpecterOps/AzureHound) from SpecterOps. Collects Entra ID and Azure data for BloodHound so you can see attack paths as a graph.
 - [PWNCLOUDOS](https://github.com/pwnedlabs/pwncloudos) (ours). A multi-cloud security Linux distribution with the tooling for AWS, Azure and Microsoft 365, and GCP and Google Workspace already installed.
 
 ## Courses and certifications
