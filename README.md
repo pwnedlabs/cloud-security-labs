@@ -6,6 +6,8 @@ The quickest way to learn cloud security is to break things in a real cloud envi
 
 Maintained by [Pwned Labs](https://pwnedlabs.io). Our own labs are listed alongside the community projects we rate, and marked so you know which is which. Pull requests are welcome.
 
+If you are new to cloud security, start with our free [Cloud Security Engineer Roadmap](https://pwnedlabs.io/resources/cloud-security-engineer-roadmap) (ours). It sets out the ten areas to learn in order, from Linux and IAM through to logging, monitoring and incident response, with a hands-on link for each area. This list fills in the practice around it.
+
 ## Hosted labs: just plug and pwn
 
 These run in environments the provider manages, so there is no cloud bill to worry about and nothing runs against an account you care about.
@@ -59,9 +61,22 @@ These are excellent for repeating an attack path from scratch once you understan
 - [CloudFox](https://github.com/BishopFox/cloudfox). Situational awareness for cloud penetration tests, from Bishop Fox.
 - [PWNCLOUDOS](https://github.com/pwnedlabs/pwncloudos) (ours). A multi-cloud security Linux distribution with the tooling for AWS, Azure and Microsoft 365, and GCP and Google Workspace already installed.
 
+## Courses and certifications
+
+| Course | Format | Focus |
+|---|---|---|
+| [Amazon Cloud Attack and Defense Bootcamp (ACRTP)](https://pwnedlabs.io/bootcamps/placrtp-bootcamp) from Pwned Labs (ours) | On-demand, 24-hour hands-on exam | AWS: IAM privilege escalation, S3 and data exposure, instance metadata credential theft, and lateral movement across accounts. |
+| [Microsoft Cloud Attack and Defense Bootcamp (MCRTP)](https://pwnedlabs.io/bootcamps/mcrtp-bootcamp) from Pwned Labs (ours) | On-demand, 24-hour hands-on exam | Azure and Microsoft 365: Entra ID enumeration, token and consent abuse, conditional access gaps, managed identity attacks, and hybrid paths back to Active Directory. |
+| [Google Cloud Attack and Defense Bootcamp (GCRTP)](https://pwnedlabs.io/bootcamps/gcrtp-bootcamp) from Pwned Labs (ours) | On-demand, 24-hour hands-on exam | Google Cloud and Google Workspace: service account impersonation, IAM binding abuse, and escalation through the project and organization structure. |
+| [Microsoft Cloud Attack and Defense Bootcamp, Expert Edition (MCRTE)](https://pwnedlabs.io/bootcamps/mcrte-bootcamp) from Pwned Labs (ours) | Expert, on-demand | Microsoft cloud red teaming and detection across Entra ID, hybrid identity and KQL. |
+| [SEC588: Cloud Penetration Testing](https://www.sans.org/cyber-security-courses/cloud-penetration-testing/) from SANS | Live or on-demand, GIAC GCPN certification | Penetration testing across AWS, Azure, Microsoft 365 and Kubernetes. |
+| [CARTP](https://www.alteredsecurity.com/cartp) and [CARTE](https://www.alteredsecurity.com/carte) from Altered Security | Lab access, hands-on exams | Azure red teaming at professional (CARTP) and expert (CARTE) level. |
+
+Check each provider for current dates and pricing.
+
 ## A path through the list
 
-1. Get comfortable with the Linux command line and the basics of the cloud you want to learn, then learn its identity model properly: IAM in AWS, Entra ID and Azure RBAC, IAM and service accounts in GCP.
+1. Get comfortable with the Linux command line and the basics of the cloud you want to learn, then learn its identity model properly: IAM in AWS, Entra ID and Azure RBAC, IAM and service accounts in GCP. Our [Cloud Security Engineer Roadmap](https://pwnedlabs.io/resources/cloud-security-engineer-roadmap) sets out the order we would learn it in.
 2. Work through the free hosted labs so you can focus on the technique instead of the setup.
 3. Deploy CloudGoat or IAM Vulnerable and walk the same attack paths again without a guide.
 4. Switch sides. Replay an attack with Stratus Red Team or a defensive lab and find it in the logs.
