@@ -47,8 +47,7 @@ These are excellent for repeating an attack path from scratch once you understan
 ## Challenges
 
 - [flAWS](http://flaws.cloud) and [flAWS 2](http://flaws2.cloud) by Scott Piper. Where a lot of us started with AWS security. flAWS 2 adds a defender path where you investigate the logs of the same attack.
-- [The Big IAM Challenge](https://thebigiamchallenge.com) from Wiz. A series of IAM policy puzzles that reward reading policies carefully.
-- [EKS Cluster Games](https://eksclustergames.com) from Wiz. You start in a low-privileged pod on EKS and work through real EKS misconfigurations.
+- [The Cloud Security Championship](https://www.cloudsecuritychampionship.com) from Wiz. A series of cloud CTF challenges built by Wiz researchers, covering data perimeters, container escape, Kubernetes, Terraform automation and S3. Most of the past challenges are still open to play.
 
 ## For defenders
 
