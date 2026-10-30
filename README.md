@@ -2,7 +2,7 @@
 
 The quickest way to learn cloud security is to break things in a real cloud environment and then work out how a defender would have caught you. This list collects the hands-on labs, vulnerable-by-design environments and challenges we point people to when they ask where to start, from free hosted labs that need nothing more than a browser to Terraform environments you deploy into your own account.
 
-> **Key Takeaway:** Cloud attack paths are usually identity attack paths. A leaked access key, an over-permissioned role or a managed identity with too much reach does more damage than any exposed port, so the labs worth your time are the ones that make you enumerate permissions, escalate through IAM and pivot between services, and then find that same activity in CloudTrail or the activity logs.
+> **Key Takeaway:** Cloud attack paths are usually identity attack paths. A leaked access key, an over-permissioned role or a managed identity with too much reach can do far more damage than an exposed port, so the labs worth your time are the ones that make you enumerate permissions, escalate through IAM and pivot between services, and then find that same activity in CloudTrail or the activity logs.
 
 Maintained by [Pwned Labs](https://pwnedlabs.io). Our own labs are listed alongside the community projects we rate, and marked so you know which is which. Pull requests are welcome.
 
@@ -14,8 +14,8 @@ These run in environments the provider manages, so there is no cloud bill to wor
 
 | Lab platform | Clouds | Free tier | What you get |
 |---|---|---|---|
-| [Pwned Labs](https://pwnedlabs.io/explore) (ours) | AWS, Azure and Microsoft 365, GCP and Google Workspace, Kubernetes, OCI | Over 30 free scenarios with a free account | 90 scenarios in live cloud environments, 15 of them defensive (CloudTrail and Athena investigations, GuardDuty, Security Hub, Splunk). Everything runs in the browser and you do not need your own cloud account. |
-| [Cybr hands-on labs](https://cybr.com/hands-on-labs) | AWS | 20+ free labs with a free account | Focused labs on AWS CLI basics, IAM, S3 and Secrets Manager enumeration, and IAM privilege escalation. A good place to build muscle memory. |
+| [Pwned Labs](https://pwnedlabs.io/explore) (ours) | AWS, Azure and Microsoft 365, GCP and Google Workspace, Kubernetes, OCI | Over 30 free scenarios with a free account | Offensive and defensive scenarios in live cloud environments, with the defensive labs covering CloudTrail and Athena investigations, GuardDuty, Security Hub and Splunk. Everything runs in the browser and you do not need your own cloud account. |
+| [Cybr hands-on labs](https://cybr.com/hands-on-labs) | AWS, Azure | 30+ free labs with a free account | Focused labs on AWS CLI basics, IAM, S3 and Secrets Manager enumeration, and IAM privilege escalation. A good place to build muscle memory. |
 | [Hack The Box BlackSky](https://www.hackthebox.com/business/professional-labs/cloud-labs-blacksky) | AWS, Azure, GCP | Business offering | A professional lab per cloud, aimed at teams. |
 
 ## Vulnerable-by-design environments you deploy
@@ -85,3 +85,7 @@ Check each provider for current dates and pricing.
 ## Contributing
 
 Open a pull request with the resource, a one-line description and whether it is free. We only list resources that are live and hands-on, and if a link breaks we will fix it or take it out.
+
+## License
+
+This list is licensed under [CC BY 4.0](LICENSE). You can share and adapt it, including commercially, as long as you credit Pwned Labs.
